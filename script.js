@@ -185,3 +185,7 @@ ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "le
 ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
 ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
 
+function openbill(){
+    style.display="block"
+}
+    
