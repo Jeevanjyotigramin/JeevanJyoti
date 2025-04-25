@@ -198,6 +198,5 @@ function openbill(){
         div.style.display='none';
         display=1;
     }
-    style.display="block"
 }
     
