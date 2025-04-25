@@ -185,7 +185,19 @@ ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "le
 ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
 ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
 
+
+ver div=document.getElementById('contracts');
+ver display=0;
 function openbill(){
+    if (display==1){
+        div.style.display='block';
+        display=0;
+    }
+    else
+    {
+        div.style.display='none';
+        display=1;
+    }
     style.display="block"
 }
     
